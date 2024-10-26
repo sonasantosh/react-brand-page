@@ -1,0 +1,40 @@
+/* Banner Section */
+.hero-banner-section{
+    padding: 5rem 0;
+}
+.hero-banner-section .inner-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.hero-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.hero-heading{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+ p.hero-para{
+    font-size: 1.25rem;
+}
+.hero-content-wrapper .button-wrapper{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.hero-content-wrapper .button-wrapper .btn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.small-img{
+    max-width: 3rem;
+    margin-top: 0.5rem;
+}
+.hero-image{
+    width: 50%;
+}

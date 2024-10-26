@@ -1,0 +1,37 @@
+header{
+    background-color: var(--light);
+    padding: 0.5rem 0;
+}
+header .inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: inline-block;
+}
+.header-logo img{
+    display: block;
+}
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation ul li{
+    padding: 0;
+}
+.navigation ul li a{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    color: var(--dark);
+}
+.navigation ul li a:hover{
+    color: var(--light);
+    background-color: var(--dark);
+}
+.user-detail{
+    display: flex;
+}
